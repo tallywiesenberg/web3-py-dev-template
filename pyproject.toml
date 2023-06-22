@@ -10,6 +10,9 @@ packages = [{include = "web3_py_dev_template", from = "src"}]
 python = "^3.9"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
