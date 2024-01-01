@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "web3-py-dev-template"
+name = "grapefruit"
 version = "0.1.0"
-description = "a template for developing programs with web3.py"
+description = "a framework for scripting on EVM chains"
 authors = ["tallywiesenberg <t.j.wies@gmail.com>"]
 readme = "README.md"
 packages = [{include = "web3_py_dev_template", from = "src"}]
