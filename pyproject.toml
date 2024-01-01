@@ -8,6 +8,7 @@ packages = [{include = "web3_py_dev_template", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
+telliot-core = "^0.3.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -15,7 +16,6 @@ pytest = "^6.2.5"
 black = "^22.10.0"
 pre-commit = "^3.3.3"
 mypy = "^1.0"
-eth-brownie = "^1.19.3"
 
 [build-system]
 requires = ["poetry-core"]

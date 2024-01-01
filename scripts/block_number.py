@@ -1,4 +1,8 @@
+"""
+Get the current block number
+"""
 from brownie import network
+
 
 def main() -> None:
 
