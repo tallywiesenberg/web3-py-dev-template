@@ -1,9 +1,10 @@
 """
 Get the current block number
 """
-from brownie import network
+from telliot_core.apps.telliot_config import TelliotConfig
 
+def get_block_number() -> None:
 
-def main() -> None:
+    cfg = TelliotConfig()
 
-    print(network.web3.eth.block_number)
+    return cfg.get_endpoint().web3.eth.get_block_number()
